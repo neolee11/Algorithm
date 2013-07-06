@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A4F3CC9-47EC-459A-8B8D-3655EF51A7FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Algorithms</RootNamespace>
+    <AssemblyName>Algorithms</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayProblemsClass.cs" />
+    <Compile Include="ArrayProblemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayProblemsForm.Designer.cs">
+      <DependentUpon>ArrayProblemsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CombinatoricsClass.cs" />
+    <Compile Include="DPAssemblyLineSchedulingClass.cs" />
+    <Compile Include="BSTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSTForm.Designer.cs">
+      <DependentUpon>BSTForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BSTClass.cs" />
+    <Compile Include="DPForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPForm.Designer.cs">
+      <DependentUpon>DPForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPLCSClass.cs" />
+    <Compile Include="DPTaskAssignmentsClass.cs" />
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="LinkedListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinkedListForm.Designer.cs">
+      <DependentUpon>LinkedListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiscelAlgorithms.cs" />
+    <Compile Include="MiscelHelperClass.cs" />
+    <Compile Include="NumericalClass.cs" />
+    <Compile Include="PermutationClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ArrayProblemsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ArrayProblemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSTForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BSTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DPForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkedListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LinkedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PyramidInterviewForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PyramidInterviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortingForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SortingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StackAndQueueForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StackAndQueueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PyramidInterviewQuestionsClass.cs" />
+    <Compile Include="PyramidInterviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PyramidInterviewForm.Designer.cs">
+      <DependentUpon>PyramidInterviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueueClass.cs" />
+    <Compile Include="SortingClass.cs" />
+    <Compile Include="SortingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortingForm.Designer.cs">
+      <DependentUpon>SortingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackAndQueueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StackAndQueueForm.Designer.cs">
+      <DependentUpon>StackAndQueueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackClass.cs" />
+    <Compile Include="StringManipulationClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CircleTree\CircleTree.csproj">
+      <Project>{2E85FC0E-5A95-48B2-86B9-AE6681F4A0ED}</Project>
+      <Name>CircleTree</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
