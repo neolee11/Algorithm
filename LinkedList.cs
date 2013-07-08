@@ -17,6 +17,7 @@ namespace Algorithms
 			mHead = null;
 		}
 
+
 		public void Insert(int value)
 		{
 			if (mHead == null)
