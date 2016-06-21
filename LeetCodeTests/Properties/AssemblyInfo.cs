@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("LeetCodeTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ICFI")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("LeetCodeTests")]
-[assembly: AssemblyCopyright("Copyright © ICFI 2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cb0fd18c-944a-4e91-85e3-bc0b62ab9f0c")]
+[assembly: Guid("f1e0dafd-b5ef-49e3-bfe5-54d99845aba3")]
 
 // Version information for an assembly consists of the following four values:
 //

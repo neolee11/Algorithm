@@ -40,8 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TwoSum.cs" />
+    <Compile Include="_1_Two_Sum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_258_Add_Digits.cs" />
+    <Compile Include="_344_Reverse_String.cs" />
+    <Compile Include="_292_Nim_Game.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
