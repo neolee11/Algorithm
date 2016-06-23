@@ -16,13 +16,17 @@ namespace LeetCode
 
             for(int i = 1; i < nums.Length; i++)
             {
-                num = nums[i];
+                var num = nums[i];
                 if (num == majElement)
                     count++;
                 else
                 {
                     count--;
-                    if (count == 0) majElement = num;
+                    if (count < 0)
+                    {
+                        majElement = num;
+                        count = 1;
+                    }
                 }
             }
 

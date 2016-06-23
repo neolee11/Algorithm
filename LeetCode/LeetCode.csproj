@@ -43,6 +43,8 @@
     <Compile Include="Common.cs" />
     <Compile Include="_100_Same_Tree.cs" />
     <Compile Include="_104_Max_Depth_Of_Binary_Tree.cs" />
+    <Compile Include="_136_Single_Number.cs" />
+    <Compile Include="_169_Majority_Element.cs" />
     <Compile Include="_171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="_1_Two_Sum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,7 +52,9 @@
     <Compile Include="_237_Delete_Node_In_A_Linked_List.cs" />
     <Compile Include="_242_Valid_Anagram.cs" />
     <Compile Include="_258_Add_Digits.cs" />
+    <Compile Include="_260_Single_Number_III.cs" />
     <Compile Include="_283_Move_Zeroes.cs" />
+    <Compile Include="_338_Counting_Bits.cs" />
     <Compile Include="_344_Reverse_String.cs" />
     <Compile Include="_292_Nim_Game.cs" />
     <Compile Include="_349_Intersection_of_Two_Arrays.cs" />
